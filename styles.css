@@ -36,5 +36,15 @@ header>nav>a:hover{
 
  border: 1px solid #fff ; 
 }
+@media (max-width:950px){
+    .accomplishments, .workexperience1, .workexperience2{
+        
+        display:block;
+        width:100%;
+    }
+    header{
+        text-align:center;
+        }
+}
 
 
