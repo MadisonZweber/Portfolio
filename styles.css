@@ -1,0 +1,51 @@
+nav>a{
+    background-color: rgb(199, 8, 199);
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: .25rem 0;
+}
+h2{
+    color: rgb(199, 8, 199);
+}
+
+h4{
+    color: rgb(199, 8, 199);
+}
+.accomplishments{
+    background-color:rgb(253, 231, 252);
+    display:inline-block;
+    width:20%;
+}
+.workexperience1{
+    display:inline-block;
+    width:30%;
+}
+.workexperience2{
+    display:inline-block;
+    width:30%;
+}
+header{
+text-align:center;
+}
+header img{
+    max-width: 100%;
+}
+header>nav>a:hover{
+   background-color: #f5a8eb;
+
+ color: #fff;
+
+ border: 1px solid #fff ; 
+}
+@media (max-width:950px){
+    .accomplishments, .workexperience1, .workexperience2{
+        
+        display:block;
+        width:100%;
+    }
+
+}
+
+
