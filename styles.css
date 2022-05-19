@@ -16,14 +16,17 @@ h4{
 .accomplishments{
     background-color:rgb(253, 231, 252);
     display:inline-block;
-    width:20%;
+    /*I recommend adding vertical-align:text-top;*/
+    width:20%;/*I recommend increasing this width a bit and adding padding 1rem. That way the words don't touch the edge of the box.*/
 }
 .workexperience1{
     display:inline-block;
+    /*I recommend adding vertical-align:text-top;*/
     width:30%;
 }
 .workexperience2{
     display:inline-block;
+    /*I recommend adding vertical-align:text-top;*/
     width:30%;
 }
 header{
@@ -39,6 +42,7 @@ header>nav>a:hover{
 
  border: 1px solid #fff ; 
 }
+/*Only other recommendation I have is setting a max-width (about 60-80rem) on the main, with margin auto. It get a bit spread out and hard to read on large screen sizes.*/
 @media (max-width:950px){
     .accomplishments, .workexperience1, .workexperience2{
         
